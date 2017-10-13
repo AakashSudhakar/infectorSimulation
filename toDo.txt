@@ -39,11 +39,13 @@ SUPERCLASSES: Simulation, Person, Virus
 >> Write method to introduce single infectious virus to target population
     >>> Limit number of unique viruses to a single virus with unique properties 
 
+
 // ======================= v1 =========================
 
 >> Create text file with viruses
     >>> Include varying viruses with different degrees of properties
     >>> Read text doc and use dictionaries/lists to call doc info into main file
+
 
 // ================ STRETCH CHALLENGES ================
 
