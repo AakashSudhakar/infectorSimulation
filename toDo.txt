@@ -1,0 +1,34 @@
+// toDo.txt (infectorSimulation)
+
+// ================ BASIC STRUCTURE ================
+
+SUPERCLASSES: Simulation, Person, Virus
+
+>> SIMULATION:
+    >>> Total Population
+    >>> Infected Sample of Population
+    >>> Vaccinated Sample of Population
+    >>> Deceased Sample of Population
+
+>> PERSON:
+    >>> Are they un/vaccinated?
+    >>> Are they dead or alive?
+    >>> Are they sick or healthy?
+
+>> VIRUS:
+    >>> Rate of Infectious Spread
+    >>> Rate of Mortality
+
+
+// ================ STRETCH CHALLENGES ================
+
+>> Add SUBCLASSES for different virus types
+    >>> Vary rate of infectious spread
+        >>>> Hard-code information OR use API
+    >>> Vary rate of mortality
+        >>>> Hard-code information OR use API
+    >>> Add immunization rates for specific viruses
+
+>> VISUALIZE data
+    >>> Use dynamic spread
+    >>> Give options for easy manipulation of input data
