@@ -11,17 +11,24 @@ SUPERCLASSES: Simulation, Person, Virus
     >>> Vaccinated Sample of Population
     >>> Deceased Sample of Population
 
->> PERSON:
+>> PERSON (SUBJECT):
     >>> Are they un/vaccinated?
     >>> Are they dead or alive?
     >>> Are they sick or healthy?
 
->> VIRUS:
+>> VIRUS (INFECTION):
     >>> Rate of Infectious Spread
     >>> Rate of Mortality
 
 
 // ======================= v0 =========================
+
+>> Create separate files for running independent superclasses
+    >>> Create a file for the main run file (main.py)
+    >>> Create a file for the population simulation (simulation.py)
+    >>> Create a file for an individual person/subject (subject.py)
+    >>> Create a file for the infectious virus (infection.py)
+
 
 >> Write script to generate population size of random subjects
     >>> Modulate portion of total population who are UNINFECTED
