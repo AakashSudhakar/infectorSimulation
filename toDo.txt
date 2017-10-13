@@ -43,6 +43,7 @@ SUPERCLASSES: Simulation, Person, Virus
 // ======================= v1 =========================
 
 >> Create text file with viruses
+    >>> First, create null file for testing hard-coded virus information --------------------- COMPLETED 10/13/17 -------------------------- //
     >>> Include varying viruses with different degrees of properties
     >>> Read text doc and use dictionaries/lists to call doc info into main file
 

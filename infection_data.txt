@@ -1,0 +1,3 @@
+// infection_data.txt (infectorSimulation)
+
+["Disease X"]
