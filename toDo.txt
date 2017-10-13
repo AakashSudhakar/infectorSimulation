@@ -24,10 +24,10 @@ SUPERCLASSES: Simulation, Person, Virus
 // ======================= v0 =========================
 
 >> Create separate files for running independent superclasses
-    >>> Create a file for the main run file (main.py)
-    >>> Create a file for the population simulation (simulation.py)
-    >>> Create a file for an individual person/subject (subject.py)
-    >>> Create a file for the infectious virus (infection.py)
+    >>> Create a file for the main run file (main.py) ---------------------------------------- COMPLETED 10/13/17 -------------------------- //
+    >>> Create a file for the population simulation (simulation.py) -------------------------- COMPLETED 10/13/17 -------------------------- //
+    >>> Create a file for an individual person/subject (subject.py) -------------------------- COMPLETED 10/13/17 -------------------------- //
+    >>> Create a file for the infectious virus (infection.py) -------------------------------- COMPLETED 10/13/17 -------------------------- //
 
 
 >> Write script to generate population size of random subjects
