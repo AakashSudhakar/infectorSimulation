@@ -31,11 +31,12 @@ def prompt_intro():
     intro_choice = str(input("Would you like to read the Infector Simulation introduction? (y/n)\n>"))
 
     if (intro_choice.lower() == "y"):
+        print("\nUser input is valid. Displaying introduction...\n")
         display_intro()
     elif (intro_choice.lower() == "n"):
-        break
+        print("\nUser input is valid. Skipping introduction...\n")
     else:
-        print("\nUser input is not valid. Please try again.\n")
+        print("\nUser input is invalid. Please try again.\n")
         prompt_intro()
 
 
