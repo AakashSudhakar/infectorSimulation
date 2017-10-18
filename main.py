@@ -4,7 +4,7 @@ import random, sys
 
 
 # Function that takes no inputs from command-line but starts game
-def simulation_start():
+def simulation_init():
     play_counter = 0
 
     print("\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
@@ -26,8 +26,11 @@ def simulation_start():
     virus_name = str(input("What is the name/type of the target virus? (Default virus type is Ebola.)\n> "))
     mortality_rate = float(input("What is the selected virus's rate of mortality? (Default mortality rate will be chosen based off of the virus's natural mortality rate.)\n> ")) # Default for Ebola is 70%
     basic_reproduction_rate = float(input("What is the selected virus's basic rate of reproduction among the target population? (Default rate of reproduction will be chosen based off of the virus's natural reproduction rate.)\n> ")) # Default for Ebola is 25%
-    initial_infected = int(input("How many subjects in the target population are initially infected with the selected virus? (Default initially infected amount is 100 subjects.)\n> "))
+    initial_infected = int(input("How many subjects in the target population are initially infected with the selected virus? (Default initially infected amount is 1 subject.)\n> "))
 
+    # infector_data_array = [population_size, vaccinated_percentage, virus_name, mortality_rate, basic_reproduction_rate, initial_infected]
+
+    simulation_start = Simulation(population_size, vaccinated_percentage, virus_name, mortality_rate, basic_reproduction_rate, initial_infected)
 
 # Function that prompts the user to display or skip the introductory message
 def prompt_intro():
@@ -60,4 +63,4 @@ def display_intro():
 def simulation_play():
     pass
 
-simulation_start()
+simulation_init()

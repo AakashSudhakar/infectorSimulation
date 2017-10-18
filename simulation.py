@@ -2,5 +2,13 @@
 
 # import main
 
-if __name__ == "__main__":
-    pass
+class Simulation(object):
+
+    def __init__(self):
+        pass
+
+    def test01(self):
+        pass
+
+    def test02(self):
+        pass
