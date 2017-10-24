@@ -7,7 +7,7 @@ from virus import Virus
 def test_person_survives_infection():
     i = 0
 
-    test_virus = Virus("Kash Krunk Killer", 0.5)
+    test_virus = Virus("KashKiller", 0.5)
 
     for i in range(1000):
         aakash = Person("Aakash", False, test_virus)
